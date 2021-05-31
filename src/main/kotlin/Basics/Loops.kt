@@ -23,4 +23,10 @@ fun main() {
             println(k * j)
         }
     }
+
+    val string = "print my characters"
+    for (char in string) {
+        println(char)
+    }
+    
 }
