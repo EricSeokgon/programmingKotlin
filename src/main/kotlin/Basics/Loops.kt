@@ -28,5 +28,5 @@ fun main() {
     for (char in string) {
         println(char)
     }
-    
+
 }
