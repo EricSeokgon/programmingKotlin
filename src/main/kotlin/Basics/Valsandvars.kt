@@ -1,4 +1,6 @@
-fun main() {
+package Basics
+
+fun main(){
     val name = "kotlin"
 
     var name1: String
