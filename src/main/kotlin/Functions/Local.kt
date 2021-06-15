@@ -43,3 +43,36 @@ fun fizzbuzz2(start: Int, end: Int): Unit {
     }
 }
 
+fun fizzbuzz3(start: Int, end: Int): Unit {
+    for (k in start..end) {
+
+        fun isFizz(): Boolean = k % 3 == 0
+        fun isBuzz(): Boolean = k % 5 == 0
+
+        if (isFizz() && isBuzz())
+            println("Fizz Buzz")
+        else if (isFizz())
+            println("Fizz")
+        else if (isBuzz())
+            println("Buzz")
+        else
+            println(k)
+    }
+}
+
+fun fizzbuzz4(start: Int, end: Int): Unit {
+    for (k in start..end) {
+
+        fun isFizz(): Boolean = k % 3 == 0
+        fun isBuzz(): Boolean = k % 5 == 0
+        when {
+            isFizz() && isBuzz() -> println("Fizz Buzz")
+            isFizz() -> println("Fizz")
+            isBuzz() -> println("Buzz")
+            else -> println(k)
+        }
+    }
+}
+
+
+
