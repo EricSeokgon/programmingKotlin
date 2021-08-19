@@ -13,4 +13,7 @@ fun main(args: Array<String>) {
     isRight = 0.00001f == 0.005f * 0.002f
     println(isRight)
 
+    isRight = 3.0 * 5 + 2.7 < 16
+    println(isRight)
+
 }
