@@ -1,17 +1,15 @@
 package Basics
 
-var count = 0
+var a = 5
 fun main(args: Array<String>) {
-    val a = 15
+    val a = 30
     println(a)
-
-    count += 1
-    printCount()
-    println(count)
+    func()
 
 }
 
-fun printCount() {
-    println(count)
-    count += 1
+fun func() {
+    println(a)
 }
+
+
