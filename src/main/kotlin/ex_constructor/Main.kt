@@ -2,7 +2,7 @@ package ex_constructor
 
 class Person constructor(name: String, age: Int) {
     val name: String
-    val age: String
+    val age: Int
 
     init {
         this.name = name
