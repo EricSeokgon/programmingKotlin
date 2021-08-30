@@ -21,6 +21,6 @@ class Time(val second: Int) {
 }
 
 fun main(args: Array<String>) {
-    println("${Time(15, 6), second}초")
-    println("${Time(6, 3, 17), second}초")
+    println("${Time(15, 6). second}초")
+    println("${Time(6, 3, 17). second}초")
 }
