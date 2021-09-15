@@ -7,6 +7,6 @@ fun main(args: Array<String>) {
     obj!!.name = "서울시청"
     println(obj!!.name)
 
-    obj = null
-    //obj!!.print()
+    //obj = null
+    obj!!.print()
 }
