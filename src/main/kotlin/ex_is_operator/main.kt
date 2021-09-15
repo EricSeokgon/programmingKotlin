@@ -12,7 +12,7 @@ fun main(args: Array<String>) {
     println("${person is Professor}")
 
 
-    val person2: Person = Student("Kim", 48)
+    val person2: Person = Professor("Kim", 48)
     println("${person2 is Person}")
     println("${person2 is Student}")
     println("${person2 !is Professor}")
