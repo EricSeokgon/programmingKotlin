@@ -7,3 +7,9 @@ fun main(args: Array<String>) {
     val i: Int = throwing()
     println(i)
 }
+
+fun validate(num: Int) {
+    val result: Int =
+        if (num >= 0) num
+        else throw Exception("num이 음수입니다.")
+}
