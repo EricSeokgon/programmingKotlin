@@ -15,7 +15,7 @@ interface Father : Parent {
 class Child : Mother, Father {
     override fun follow() {
         println("A child decided to")
-        super<Father>.follow()
+        super<Mother>.follow()
     }
 }
 
