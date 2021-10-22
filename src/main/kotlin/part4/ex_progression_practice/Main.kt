@@ -1,9 +1,9 @@
 package part4.ex_progression_practice
 
 fun IntProgression.print() {
-    print("first:${this.first}, ")
-    print("last:${this.last}, ")
-    print("step:${this.step}")
+    print("first: ${this.first}, ")
+    print("last: ${this.last}, ")
+    println("step: ${this.step}")
 
     for (i in this)
         print("$i ")
